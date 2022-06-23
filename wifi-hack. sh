@@ -1,0 +1,41 @@
+/data/data/com.termux/files~wifi-hacker/wifi-hacker.sh       1758/134K                1%
+#!/bin/bash
+
+
+############################################################################
+#   CREDITS BEGIN   ########################################################
+############################################################################
+
+
+# WiFi Hacker v2.0
+# esc0rtd3w 2019
+
+# https://github.com/esc0rtd3w/wifi-hacker/
+
+# Uses parts of the aircrack-ng suite, reaver, wifite, and many other tools
+
+
+############################################################################
+#   CREDITS END   ##########################################################
+############################################################################
+
+
+
+
+
+############################################################################
+#   VERSION HISTORY BEGIN   ################################################
+############################################################################
+
+# v2.0
+# - Added support for new Gnome terminal options. Tested in Kali 2018.4
+
+# v1.9
+# - Added support for Wash. Currently used for dumping scan info out to text.
+# - Added "Bruteforce Hidden SSID Options" To Extras Menu and updated bruteforceHiddenSS
+# - Updated Menu Navigation to restrict from entering Extras Menu until after a wireless
+# - Configured updates with new coloring, and now will only update if remote version is
+# - Cleaned up code for doSleepMessage() Function. Now takes 3 arguments, "message", "ti
+# - Updated Extras Menu. Added wpa_supplicant enable and disable options. Updated wpa_cl
+# - Updated Reaver save session to only save a backup if current session file exists.
+# - Fixed and updated Reaver output post screen that was broken in the last release vers
